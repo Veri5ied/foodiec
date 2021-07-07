@@ -8,7 +8,7 @@
 }
 
 .card__container {
-  width: 320px;
+  max-width: 320px;
   padding: 1em;
   border: 1px solid rgb(236, 229, 229);
   margin: 1em;
@@ -31,8 +31,12 @@
 }
 
 .card__desc > p {
-  font-size: 14px;
+  font-size: 13px;
   margin-top: 2em;
+}
+
+.card__meal > p {
+  font-size: 13px;
 }
 
 .card__rating {
