@@ -57,3 +57,20 @@
   border-top-left-radius: 8px;
   cursor: pointer;
 }
+
+.card__btn {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+.card__btn > button {
+  border: none;
+  background: rgb(255, 166, 0);
+  color: white;
+  font-size: 16px;
+  padding: 1em;
+  border-radius: 45px;
+  font-weight: bold;
+  width: 150px;
+}
