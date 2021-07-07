@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Cover from "./cover.png";
 import axios from "axios";
 import "./Card.css";
 
