@@ -14,7 +14,7 @@ function Card() {
       .catch((err) => {
         console.log(err);
       });
-  }, []);
+  }, [food]);
 
   function truncate(str, n) {
     return str?.length > n ? str.substr(0, n - 1) + "..." : str;
@@ -39,7 +39,7 @@ function Card() {
               <p>{truncate(el.description, 100)}</p>
             </div>
             <div className="card__rating">
-              <div className="ratings">{el.ratings}</div>
+              <div className="ratings">{`${el.ratings} stars`}</div>
               <div className="btn">
                 <button className="plus">+</button>
               </div>
