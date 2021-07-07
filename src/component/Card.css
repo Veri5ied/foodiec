@@ -12,6 +12,8 @@
   padding: 1em;
   border: 1px solid rgb(236, 229, 229);
   margin: 1em;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .card__img > img {
@@ -53,4 +55,5 @@
   font-size: 40px;
   width: 100px;
   border-top-left-radius: 8px;
+  cursor: pointer;
 }
