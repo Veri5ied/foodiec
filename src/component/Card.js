@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import Ratings from "./Ratings";
 import "./Card.css";
 
 function Card() {
@@ -40,7 +41,10 @@ function Card() {
                 <p>{truncate(el.description, 100)}</p>
               </div>
               <div className="card__rating">
-                <div className="ratings">{`${el.ratings} stars`}</div>
+                {/* <div className="ratings">{`${el.ratings} stars`}</div> */}
+                <div className="ratings">
+                  <Ratings value={el.ratings}/>
+                </div>
                 <div className="btn">
                   <button className="plus">+</button>
                 </div>
